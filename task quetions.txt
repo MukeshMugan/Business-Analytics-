@@ -1,0 +1,33 @@
+Sure, let's focus on a subset of questions and discuss how to solve them in Power BI:
+
+1. **Demographic Analysis:**
+   - How does the distribution of customers vary by age group?
+
+   **Solution:** Create a column chart showing the count of customers in each age group category. You can use Power BI's built-in grouping and aggregation functions to group customers into age ranges.
+
+2. **Campaign Performance:**
+   - What is the response rate for each marketing campaign?
+
+   **Solution:** Create a bar chart displaying the response rate (number of responses divided by the number of recipients) for each marketing campaign. You can calculate the response rate using DAX measures, dividing the number of responses by the total number of customers targeted by each campaign.
+
+3. **Channel Effectiveness:**
+   - How does the effectiveness of different marketing channels compare in driving sales?
+
+   **Solution:** Create a stacked column chart showing the total sales attributed to each marketing channel (web, catalog, store). You can calculate this by summing up the sales for each channel. Additionally, you can create a line chart to track the trend of sales over time for each channel.
+
+4. **Return on Investment (ROI):**
+   - What is the ROI for each marketing campaign?
+
+   **Solution:** Create a bar chart displaying the ROI for each marketing campaign. You can calculate ROI using DAX measures, dividing the net profit (revenue generated minus the cost of the campaign) by the cost of the campaign.
+
+5. **Customer Satisfaction and Complaints:**
+   - How have customer complaints evolved over time?
+
+   **Solution:** Create a line chart showing the number of customer complaints over time. You can use a date column to group complaints by month or year, and then count the number of complaints for each time period.
+
+6. **Trends and Seasonality:**
+   - Are there any seasonal trends in customer purchases?
+
+   **Solution:** Create a line chart or area chart showing the total sales over time, grouped by month or quarter. This will allow you to visualize any seasonal patterns in customer purchases.
+
+These solutions involve creating various types of visualizations (column charts, bar charts, line charts) in Power BI and using DAX measures to calculate metrics such as response rate and ROI. You can further enhance these visualizations by adding filters, slicers, and drill-down capabilities to explore the data from different perspectives.
